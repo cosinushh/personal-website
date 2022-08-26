@@ -139,4 +139,9 @@ figure img {
 
 hr {
   margin-top: 75px;
+  border-top: solid 1px #3ca6a6;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  width: 10%;
 }
