@@ -71,7 +71,7 @@ body {
 h1 {
   color: #3ca6a6;
   font-weight: 100;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0;
 }
 
@@ -82,17 +82,27 @@ h3 {
 }
 
 header {
-  background-image: url(/img/kai_background.jpg);
+  background-image: url(/test/kai_test2.jpg);
   background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 nav {
   background-color: #fff;
   padding: 15px 30px 5px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ol {
+nav ul {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  list-style: none;
   margin: 0;
+  display: flex;
+  gap: 30px;
 }
 
 figure img {
@@ -103,7 +113,6 @@ figure img {
 .header--textblock {
   background-color: #012e40;
   padding: 100px 50px;
-  width: 35%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  width: 50%;
+  margin: 75px 0 75px 0;
 }
