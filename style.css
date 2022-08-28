@@ -56,7 +56,9 @@
     #f7f7f7
 */
 
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
