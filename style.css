@@ -161,3 +161,8 @@ hr {
 header span {
   text-decoration: solid line-through #fff;
 }
+
+.about,
+.skills {
+  margin: auto 75px;
+}
