@@ -92,7 +92,7 @@ h4 {
   margin-top: 75px;
 }
 header {
-  background-image: url(/test/kai_test1.jpg);
+  background-image: url(/img/kai_bg_3.jpg);
   background-size: cover;
   background-position: bottom;
   display: flex;
@@ -123,6 +123,16 @@ figure {
 figure img {
   width: 48px;
   margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: 300;
+  color: #3ca6a6;
 }
 
 .header--textblock {
