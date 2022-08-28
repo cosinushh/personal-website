@@ -145,3 +145,7 @@ hr {
   border-right: none;
   width: 10%;
 }
+
+header span {
+  text-decoration: solid line-through #fff;
+}
